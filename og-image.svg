@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="DPO Romandie — Conformité nLPD pour les PME romandes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e4f52"/>
+      <stop offset="1" stop-color="#0a3d40"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- marque -->
+  <g transform="translate(90,84)">
+    <rect width="58" height="58" rx="13" fill="#ffffff"/>
+    <rect x="14" y="25.5" width="30" height="7" rx="3.5" fill="#0e4f52"/>
+    <rect x="25.5" y="14" width="7" height="30" rx="3.5" fill="#0e4f52"/>
+  </g>
+  <text x="166" y="123" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#cfe6e6">DPO Romandie</text>
+
+  <!-- titre -->
+  <text x="90" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="bold" fill="#ffffff">Vos données</text>
+  <text x="90" y="366" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="bold" fill="#ffffff">en règle, prêtes</text>
+  <text x="90" y="444" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="bold" fill="#ffffff">pour le contrôle.</text>
+
+  <!-- sous-titre -->
+  <text x="92" y="524" font-family="-apple-system, 'Segoe UI', Arial, sans-serif" font-size="29" fill="#a8cccc">Conformité nLPD pour les PME · Suisse romande, tous secteurs</text>
+
+  <!-- accent croix suisse -->
+  <g transform="translate(1014,452)">
+    <rect width="96" height="96" rx="14" fill="#c8102e"/>
+    <rect x="26" y="42" width="44" height="12" rx="3" fill="#ffffff"/>
+    <rect x="42" y="26" width="12" height="44" rx="3" fill="#ffffff"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Carte de relief (niveaux de gris) : blanc = saillant, sombre = gravé, gris moyen = plat -->
+  <rect width="1024" height="1024" fill="#000000"/>
+  <circle cx="512" cy="512" r="500" fill="#7a7a7a"/>
+  <!-- rebord saillant -->
+  <circle cx="512" cy="512" r="496" fill="none" stroke="#b8b8b8" stroke-width="14"/>
+  <!-- rainures concentriques (gravées) -->
+  <circle cx="512" cy="512" r="452" fill="none" stroke="#3a3a3a" stroke-width="6"/>
+  <circle cx="512" cy="512" r="392" fill="none" stroke="#3a3a3a" stroke-width="6"/>
+  <!-- texte gravé -->
+  <defs><path id="rb" d="M512,512 m-360,0 a360,360 0 1,1 720,0 a360,360 0 1,1 -720,0"/></defs>
+  <text fill="#2a2a2a" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="12">
+    <textPath href="#rb" startOffset="0">· PREUVE DE DILIGENCE · CONFORMITÉ NLPD · SUISSE </textPath>
+  </text>
+  <!-- croix suisse saillante (relief fort) -->
+  <rect x="430" y="430" width="164" height="164" rx="30" fill="#cccccc"/>
+  <rect x="464" y="500" width="96" height="24" rx="6" fill="#ffffff"/>
+  <rect x="500" y="464" width="24" height="96" rx="6" fill="#ffffff"/>
+</svg>

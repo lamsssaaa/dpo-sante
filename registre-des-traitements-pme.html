@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr-CH">
+<head>
+  <meta charset="utf-8">
+  <script>document.documentElement.classList.add('js');window.__rf=setTimeout(function(){document.documentElement.classList.add('no-reveal')},3000);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registre des traitements (art. 12 LPD) pour une PME</title>
+  <meta name="description" content="Le registre des traitements, art. 12 LPD : qui est concerné, l&#x27;exemption PME et ses limites, ce qu&#x27;il contient et comment le construire pas à pas.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="canonical" href="https://dpo-romandie.ch/registre-des-traitements-pme.html">
+  <link rel="alternate" hreflang="fr-CH" href="https://dpo-romandie.ch/registre-des-traitements-pme.html">
+  <link rel="alternate" hreflang="x-default" href="https://dpo-romandie.ch/registre-des-traitements-pme.html">
+  <meta property="og:title" content="Registre des traitements (art. 12 LPD) pour une PME">
+  <meta property="og:description" content="Le registre des traitements, art. 12 LPD : qui est concerné, l&#x27;exemption PME et ses limites, ce qu&#x27;il contient et comment le construire pas à pas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dpo-romandie.ch/registre-des-traitements-pme.html">
+  <meta property="og:locale" content="fr_CH">
+  <meta property="og:image" content="https://dpo-romandie.ch/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="DPO Romandie — conformité nLPD pour les PME romandes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dpo-romandie.ch/og-image.png">
+  <meta name="theme-color" content="#0e4f52">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="mask-icon" href="favicon.svg" color="#0e4f52">
+  <link rel="preload" href="fonts/fraunces-600-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/hanken-grotesk-400-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+  { "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/addons/" } }
+  </script>
+  <script src="app.js" defer></script>
+  <script type="module" src="coin-loader.js"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dpo-romandie.ch/#org",
+      "name": "DPO Romandie",
+      "areaServed": "Genève, Suisse romande",
+      "url": "https://dpo-romandie.ch/",
+      "description": "Conformité protection des données (nLPD) pour les PME de Suisse romande, tous secteurs."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dpo-romandie.ch/registre-des-traitements-pme.html",
+      "url": "https://dpo-romandie.ch/registre-des-traitements-pme.html",
+      "name": "Registre des traitements (art. 12 LPD) pour une PME",
+      "description": "Le registre des traitements, art. 12 LPD : qui est concerné, l'exemption PME et ses limites, ce qu'il contient et comment le construire pas à pas.",
+      "inLanguage": "fr-CH",
+      "isPartOf": {
+        "@id": "https://dpo-romandie.ch/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://dpo-romandie.ch/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Le registre des traitements (art. 12 LPD) pour une PME",
+          "item": "https://dpo-romandie.ch/registre-des-traitements-pme.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ma PME de moins de 250 employés doit-elle vraiment tenir un registre des traitements ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pas systématiquement. L'ordonnance (art. 24 OPDo) dispense les entreprises de moins de 250 collaborateurs de l'obligation de registre, mais uniquement si leurs traitements présentent un risque limité. L'exemption tombe dès que vous traitez des données sensibles à grande échelle (santé, données pénales, biométrie…) ou que vous faites du profilage à risque élevé : dans ces cas, le registre redevient obligatoire quelle que soit la taille. Beaucoup de PME se croient dispensées à tort."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que doit contenir concrètement un registre des traitements ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pour chaque traitement : la ou les finalités, les catégories de personnes concernées, les catégories de données (dont les données sensibles), les destinataires, les durées de conservation ou les critères pour les fixer, une description générale des mesures de sécurité, et le cas échéant les transferts à l'étranger avec le pays de destination et la garantie applicable. C'est prévu par l'article 12 LPD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un simple tableur suffit-il pour le registre ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, dans la grande majorité des PME. Un tableur bien structuré, avec une ligne par traitement et une colonne par information requise, est parfaitement conforme. L'important n'est pas l'outil mais la rigueur de la description et, surtout, la mise à jour à chaque nouvel outil, prestataire ou activité. Les logiciels dédiés deviennent utiles quand les traitements se multiplient."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi tenir un registre si mon entreprise en est légalement dispensée ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Parce que l'exemption porte sur l'obligation formelle, pas sur l'utilité. Un registre à jour constitue une preuve de diligence précieuse en cas de plainte, permet de répondre rapidement à une demande d'accès ou à un partenaire, et sert de base à toute la conformité : politique de confidentialité, contrats de sous-traitance, mesures de sécurité, réaction à une violation. C'est un faible investissement pour un vrai filet de sécurité."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le registre doit-il être publié ou envoyé au Préposé fédéral ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Le registre est un document interne. Il n'est ni publié ni transmis spontanément. Mais il doit pouvoir être présenté sur demande au Préposé fédéral à la protection des données et à la transparence (PFPDT). C'est aussi la première pièce qu'un client, un partenaire ou un auditeur est susceptible de réclamer pour vérifier votre sérieux."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true"><svg class="mono" viewBox="0 0 96 104" fill="none" aria-hidden="true" focusable="false"><text x="48" y="44" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">YR</text><line x1="14" y1="54" x2="82" y2="54" stroke="currentColor" stroke-width="1.6"/><rect x="42" y="48" width="12" height="12" rx="2" fill="#c8102e"/><rect x="44.8" y="53.2" width="6.4" height="2.4" rx=".8" fill="#fff"/><rect x="46.8" y="51.2" width="2.4" height="6.4" rx=".8" fill="#fff"/><text x="48" y="94" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">AS</text></svg></span><span><b>DPO Romandie</b><small>Conformité · Suisse romande</small></span></a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="secteurs.html">Secteurs</a>
+        <a href="inspection-gresi.html">Contrôle</a>
+        <a href="tarifs.html">Tarifs</a>
+        <a href="equipe.html">Équipe</a>
+        <a class="btn" href="audit-gratuit.html">Audit gratuit</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-head">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › Le registre des traitements (art. 12 LPD) pour une PME</nav>
+      <p class="eyebrow">Conformité protection des données · PME · Suisse romande</p>
+      <h1>Le registre des traitements (art. 12 LPD) pour une PME</h1>
+    </div>
+  </div>
+  <main id="main" class="container">
+<section data-reveal>
+<p class="lead">Le registre des activités de traitement est, dans la pratique, l'une des <strong>premières pièces qu'on vous demandera</strong> en cas de question d'un client, d'un partenaire ou du Préposé fédéral. C'est un inventaire structuré de la manière dont votre PME utilise les données personnelles : à quelles fins, quelles données, sur qui, qui y a accès, combien de temps, et comment elles sont protégées. Bonne nouvelle : il n'est pas réservé aux grandes entreprises, et le construire est largement à votre portée. Cette page explique honnêtement qui doit en tenir un, ce que recouvre l'exemption pour les petites structures, et comment monter le vôtre étape par étape.</p>
+</section>
+
+<section data-reveal>
+<h2>Qu'est-ce que le registre des traitements ?</h2>
+<p>Le registre des activités de traitement est prévu par l'<strong>article 12 de la loi fédérale sur la protection des données (LPD)</strong>, en vigueur depuis le 1<sup>er</sup> septembre 2023. Il sert à recenser, traitement par traitement, ce que l'entreprise fait des données personnelles qu'elle détient.</p>
+<p class="definition"><strong>Un « traitement »</strong> au sens de la LPD, c'est toute opération sur des données personnelles : collecter, enregistrer, conserver, utiliser, transmettre, archiver ou détruire. Gérer la paie, envoyer une newsletter, suivre des clients dans un CRM, filmer une entrée avec une caméra, recruter : ce sont autant de traitements distincts.</p>
+<p>Le registre n'est pas un document à publier : c'est un outil <strong>interne</strong>. Mais il doit pouvoir être présenté sur demande au Préposé fédéral à la protection des données et à la transparence (PFPDT). C'est aussi, et surtout, la <strong>cartographie</strong> qui rend tout le reste possible : sans savoir quelles données vous traitez, impossible de rédiger une politique de confidentialité juste, de répondre à une demande d'accès ou d'évaluer un risque.</p>
+</section>
+
+<section data-reveal>
+<h2>Qui est concerné ? L'exemption PME et ses limites</h2>
+<p>C'est la question la plus fréquente, et la réponse mérite d'être donnée sans raccourci. La loi prévoit une <strong>exemption pour les petites entreprises</strong>, mais elle est plus étroite qu'on ne le croit souvent.</p>
+<p>L'ordonnance d'application (art. 24 OPDo) dispense de l'obligation de registre les entreprises de <strong>moins de 250 collaborateurs</strong> — <em>à condition</em> que leurs traitements ne présentent qu'un risque limité d'atteinte aux personnes.</p>
+<div class="callout">
+<strong>Le piège à connaître :</strong> l'exemption tombe dès qu'au moins l'une de ces situations est réunie, même avec deux salariés :
+<ul>
+<li>vous traitez des <strong>données sensibles à grande échelle</strong> (santé, opinions, données syndicales, religieuses, poursuites pénales, biométrie…) ;</li>
+<li>vous faites du <strong>profilage à risque élevé</strong> (analyse automatisée du comportement, de la solvabilité, des habitudes…).</li>
+</ul>
+Dans ces cas, le registre redevient <strong>obligatoire</strong>, quelle que soit la taille de l'entreprise.
+</div>
+<p>Autrement dit, beaucoup de PME romandes pensent être dispensées alors qu'elles ne le sont pas : un cabinet de soins, une fiduciaire qui gère des dossiers de poursuites, une agence de recrutement, une plateforme qui score ses utilisateurs. La taille ne suffit pas : c'est la <strong>nature des données et des traitements</strong> qui décide. Selon votre <a href="secteurs.html">secteur d'activité</a>, le curseur n'est donc pas au même endroit.</p>
+<p class="stat">Base légale : art. 12 LPD (registre des activités de traitement) ; exemption des entreprises de moins de 250 collaborateurs prévue par l'art. 24 de l'ordonnance sur la protection des données (OPDo), sous réserve de traitements à risque.</p>
+<div class="table-wrap"><table class="compare">
+<thead>
+<tr><th>Situation</th><th>Registre obligatoire ?</th></tr>
+</thead>
+<tbody>
+<tr><td>PME &lt; 250 employés, traitements ordinaires (clients, RH courante, fournisseurs)</td><td>Non — exemption applicable</td></tr>
+<tr><td>PME &lt; 250 employés traitant des données sensibles à grande échelle</td><td>Oui</td></tr>
+<tr><td>PME &lt; 250 employés faisant du profilage à risque élevé</td><td>Oui</td></tr>
+<tr><td>Entreprise de 250 employés ou plus</td><td>Oui</td></tr>
+</tbody>
+</table></div>
+</section>
+
+<section data-reveal>
+<h2>Pourquoi le tenir même quand on en est dispensé</h2>
+<p>L'exemption porte sur l'<em>obligation formelle</em>, pas sur l'utilité. Même non obligatoire, le registre reste un investissement modeste qui rend de grands services :</p>
+<div class="grid cols-3">
+<div class="card"><h3>Preuve de diligence</h3><p>En cas de plainte ou de question, montrer un registre tenu à jour démontre que vous prenez la protection des données au sérieux. C'est exactement la diligence qui pèse face au risque de sanction.</p></div>
+<div class="card"><h3>Réponses rapides</h3><p>Une demande d'accès, un partenaire qui exige une garantie, un client inquiet : avec le registre, vous répondez en heures plutôt qu'en semaines.</p></div>
+<div class="card"><h3>Base de tout le reste</h3><p>Politique de confidentialité, contrats avec les sous-traitants, mesures de sécurité, réaction à une <a href="violation-de-donnees-que-faire.html">violation de données</a> : tout part du registre.</p></div>
+</div>
+<p>C'est aussi pour cela qu'un conseiller commence presque toujours par là : le registre est la photographie qui révèle où sont les vrais risques.</p>
+</section>
+
+<section data-reveal>
+<h2>Que doit contenir le registre ?</h2>
+<p>Pour <strong>chaque traitement</strong>, le registre décrit un petit nombre d'éléments. Inutile d'en faire un roman : la clarté prime sur la longueur.</p>
+<div class="grid cols-3">
+<div class="card"><h3>Finalités</h3><p>Pourquoi vous traitez ces données (gérer la paie, facturer, prospecter, recruter…).</p></div>
+<div class="card"><h3>Catégories de personnes</h3><p>Qui est concerné : clients, employés, candidats, prospects, fournisseurs, visiteurs.</p></div>
+<div class="card"><h3>Catégories de données</h3><p>Quels types de données : identité, coordonnées, données financières, et le cas échéant données sensibles.</p></div>
+<div class="card"><h3>Destinataires</h3><p>À qui les données sont transmises : prestataires informatiques, assurances, autorités, sous-traitants.</p></div>
+<div class="card"><h3>Durées de conservation</h3><p>Combien de temps vous gardez les données, ou les critères pour fixer cette durée.</p></div>
+<div class="card"><h3>Sécurité</h3><p>Une description générale des mesures techniques et organisationnelles qui protègent les données.</p></div>
+</div>
+<p>S'ajoute un volet essentiel pour beaucoup de PME romandes : les <strong>transferts à l'étranger</strong>. Si des données partent hors de Suisse (hébergement cloud, outil marketing américain, maison mère), le registre indique le pays de destination et la garantie qui encadre ce transfert. C'est souvent ici que se révèlent des risques insoupçonnés.</p>
+<blockquote class="expert">« Quand on ouvre le registre d'une PME pour la première fois, la surprise vient rarement des données elles-mêmes. Elle vient des destinataires et des transferts : un outil installé il y a trois ans qui envoie tout vers un serveur étranger, sans que personne ne l'ait jamais formalisé. » — [Nom de l'associé], conseiller à la protection des données, DPO Romandie</blockquote>
+</section>
+
+<section data-reveal>
+<h2>Comment construire votre registre, étape par étape</h2>
+<p>La méthode tient en cinq temps. Comptez une demi-journée à une journée pour une PME aux traitements simples.</p>
+<ol class="steps">
+<li><strong>Lister les traitements par service.</strong> Faites le tour des fonctions : RH (paie, dossiers du personnel, recrutement), commercial (CRM, prospection, contrats), finance (facturation, comptabilité), informatique (logs, sauvegardes), accueil (caméras, badges). Chaque grande activité devient une ligne.</li>
+<li><strong>Décrire chaque traitement.</strong> Pour chaque ligne, renseignez les colonnes : finalité, personnes concernées, données, destinataires, durée, sécurité, transferts. Restez factuel et concis.</li>
+<li><strong>Repérer les traitements sensibles ou à risque.</strong> Marquez d'un drapeau ceux qui touchent des données sensibles ou du profilage. Ce sont eux qui déclenchent l'obligation, et ceux qui méritent le plus d'attention.</li>
+<li><strong>Cartographier les destinataires et les transferts.</strong> Pour chaque prestataire qui voit vos données, vérifiez qu'un contrat encadre la relation et notez où sont physiquement hébergées les données.</li>
+<li><strong>Faire vivre le document.</strong> Un registre n'est utile que s'il est à jour. Désignez un responsable, et révisez-le à chaque nouvel outil, nouveau prestataire ou nouvelle activité.</li>
+</ol>
+<div class="callout">
+<strong>Pas besoin de logiciel coûteux.</strong> Un tableur bien structuré suffit pour démarrer dans la grande majorité des PME. L'enjeu n'est pas l'outil, c'est la rigueur de la description et la mise à jour régulière.
+</div>
+</section>
+
+<section data-reveal>
+<h2>Où le registre s'arrête, et où commence l'accompagnement</h2>
+<p>Construire le registre est à la portée d'une PME organisée. Là où un regard extérieur apporte de la valeur, c'est sur les <strong>zones grises</strong> : « mes traitements sont-ils sensibles à grande échelle ? », « ce profilage est-il à risque élevé ? », « ce transfert vers ce prestataire est-il couvert ? ». Ces qualifications déterminent vos obligations, et une erreur d'appréciation se paie en exposition au risque.</p>
+<p>Chez DPO Romandie, le registre est la première étape de la mise en conformité, menée en duo : un volet opérationnel qui structure et remplit le document avec vous, et une <strong>conseillère à la protection des données nommée</strong> qui valide les qualifications délicates et signe le travail. Le responsable du traitement reste toujours votre entreprise — notre rôle est de vous donner la méthode, la preuve de diligence et un accompagnement clair.</p>
+<p>Pour situer votre cas, deux points de départ utiles : <a href="dpo-externe-pme-romandie.html">comprendre le rôle d'un conseiller à la protection des données externe</a> et savoir <a href="violation-de-donnees-que-faire.html">quoi faire en cas de violation</a>. Et si vous préférez partir d'un état des lieux concret, l'<a href="audit-gratuit.html">audit gratuit</a> identifie en quelques échanges si votre registre est obligatoire et par où commencer.</p>
+<a class="cta" href="audit-gratuit.html">Vérifier si mon registre est obligatoire — audit gratuit</a>
+</section>
+    <section data-reveal aria-label="Questions fréquentes">
+      <h2>Questions fréquentes</h2>
+      <div class="faq">
+      <details><summary>Ma PME de moins de 250 employés doit-elle vraiment tenir un registre des traitements ?</summary><div>Pas systématiquement. L'ordonnance (art. 24 OPDo) dispense les entreprises de moins de 250 collaborateurs de l'obligation de registre, mais uniquement si leurs traitements présentent un risque limité. L'exemption tombe dès que vous traitez des données sensibles à grande échelle (santé, données pénales, biométrie…) ou que vous faites du profilage à risque élevé : dans ces cas, le registre redevient obligatoire quelle que soit la taille. Beaucoup de PME se croient dispensées à tort.</div></details>
+      <details><summary>Que doit contenir concrètement un registre des traitements ?</summary><div>Pour chaque traitement : la ou les finalités, les catégories de personnes concernées, les catégories de données (dont les données sensibles), les destinataires, les durées de conservation ou les critères pour les fixer, une description générale des mesures de sécurité, et le cas échéant les transferts à l'étranger avec le pays de destination et la garantie applicable. C'est prévu par l'article 12 LPD.</div></details>
+      <details><summary>Un simple tableur suffit-il pour le registre ?</summary><div>Oui, dans la grande majorité des PME. Un tableur bien structuré, avec une ligne par traitement et une colonne par information requise, est parfaitement conforme. L'important n'est pas l'outil mais la rigueur de la description et, surtout, la mise à jour à chaque nouvel outil, prestataire ou activité. Les logiciels dédiés deviennent utiles quand les traitements se multiplient.</div></details>
+      <details><summary>Pourquoi tenir un registre si mon entreprise en est légalement dispensée ?</summary><div>Parce que l'exemption porte sur l'obligation formelle, pas sur l'utilité. Un registre à jour constitue une preuve de diligence précieuse en cas de plainte, permet de répondre rapidement à une demande d'accès ou à un partenaire, et sert de base à toute la conformité : politique de confidentialité, contrats de sous-traitance, mesures de sécurité, réaction à une violation. C'est un faible investissement pour un vrai filet de sécurité.</div></details>
+      <details><summary>Le registre doit-il être publié ou envoyé au Préposé fédéral ?</summary><div>Non. Le registre est un document interne. Il n'est ni publié ni transmis spontanément. Mais il doit pouvoir être présenté sur demande au Préposé fédéral à la protection des données et à la transparence (PFPDT). C'est aussi la première pièce qu'un client, un partenaire ou un auditeur est susceptible de réclamer pour vérifier votre sérieux.</div></details>
+      </div>
+    </section>
+    <nav class="related" data-reveal aria-label="Sur le même sujet">
+      <h2>Sur le même sujet</h2>
+      <ul>
+        <li><a href="dpo-externe-pme-romandie.html">DPO externe pour PME romandes</a></li>
+        <li><a href="violation-de-donnees-que-faire.html">Fuite de données : la marche à suivre</a></li>
+        <li><a href="tarifs.html">Nos tarifs</a></li>
+      </ul>
+    </nav>
+    <div class="cta-band" data-reveal>
+      <h2>Où en est votre EMS&nbsp;?</h2>
+      <p>20 minutes pour un état des lieux honnête de votre conformité — sans engagement.</p>
+      <a class="btn lg" href="audit-gratuit.html">Réserver l'audit gratuit</a>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="cols">
+        <div>
+          <a class="brand" href="index.html"><span class="mark" aria-hidden="true"><svg class="mono" viewBox="0 0 96 104" fill="none" aria-hidden="true" focusable="false"><text x="48" y="44" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">YR</text><line x1="14" y1="54" x2="82" y2="54" stroke="currentColor" stroke-width="1.6"/><rect x="42" y="48" width="12" height="12" rx="2" fill="#c8102e"/><rect x="44.8" y="53.2" width="6.4" height="2.4" rx=".8" fill="#fff"/><rect x="46.8" y="51.2" width="2.4" height="6.4" rx=".8" fill="#fff"/><text x="48" y="94" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">AS</text></svg></span><span><b>DPO Romandie</b></span></a>
+          <p>Conformité protection des données (nLPD) pour les PME de Suisse romande, tous secteurs. Données hébergées en Suisse.</p>
+          <div class="lang" aria-label="Langues"><a class="active" href="registre-des-traitements-pme.html" aria-current="true">FR</a><span title="Bientôt disponible">DE</span><span title="Bientôt disponible">IT</span></div>
+        </div>
+        <div>
+          <h3>Service</h3>
+          <a href="secteurs.html">Secteurs (santé)</a>
+          <a href="dpo-externe-ems-geneve.html">DPO externe pour EMS</a>
+          <a href="tarifs.html">Tarifs</a>
+          <a href="audit-gratuit.html">Audit gratuit</a>
+        </div>
+        <div>
+          <h3>Ressources</h3>
+          <a href="inspection-gresi.html">Préparer un contrôle</a>
+          <a href="amende-nlpd-250000.html">L'amende de 250'000 CHF</a>
+          <a href="dpo-interne-ou-externe-cout.html">Interne ou externe&nbsp;?</a>
+        </div>
+        <div>
+          <h3>Maison</h3>
+          <a href="equipe.html">L'équipe</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="legal">© 2026 DPO Romandie — [Raison sociale]. Données hébergées en Suisse. · <a href="politique-confidentialite.html">Politique de confidentialité</a> · <a href="mentions-legales.html">Mentions légales</a> · Information générale, ne constitue pas un conseil juridique individualisé.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

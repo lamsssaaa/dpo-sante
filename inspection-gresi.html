@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr-CH">
+<head>
+  <meta charset="utf-8">
+  <script>document.documentElement.classList.add('js');window.__rf=setTimeout(function(){document.documentElement.classList.add('no-reveal')},3000);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contrôle EMS Genève : GRESI et protection des données</title>
+  <meta name="description" content="Contrôle d&#x27;un EMS genevois côté données : distinction entre surveillance GRESI et autorité de protection des données, étapes de préparation et checklist.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="canonical" href="https://dpo-romandie.ch/inspection-gresi.html">
+  <link rel="alternate" hreflang="fr-CH" href="https://dpo-romandie.ch/inspection-gresi.html">
+  <link rel="alternate" hreflang="x-default" href="https://dpo-romandie.ch/inspection-gresi.html">
+  <meta property="og:title" content="Contrôle EMS Genève : GRESI et protection des données">
+  <meta property="og:description" content="Contrôle d&#x27;un EMS genevois côté données : distinction entre surveillance GRESI et autorité de protection des données, étapes de préparation et checklist.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dpo-romandie.ch/inspection-gresi.html">
+  <meta property="og:locale" content="fr_CH">
+  <meta property="og:image" content="https://dpo-romandie.ch/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="DPO Romandie — conformité nLPD pour les PME romandes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dpo-romandie.ch/og-image.png">
+  <meta name="theme-color" content="#0e4f52">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="mask-icon" href="favicon.svg" color="#0e4f52">
+  <link rel="preload" href="fonts/fraunces-600-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/hanken-grotesk-400-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+  { "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/addons/" } }
+  </script>
+  <script src="app.js" defer></script>
+  <script type="module" src="coin-loader.js"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dpo-romandie.ch/#org",
+      "name": "DPO Romandie",
+      "areaServed": "Genève, Suisse romande",
+      "url": "https://dpo-romandie.ch/",
+      "description": "Conformité protection des données (nLPD) pour les PME de Suisse romande, tous secteurs."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dpo-romandie.ch/inspection-gresi.html",
+      "url": "https://dpo-romandie.ch/inspection-gresi.html",
+      "name": "Contrôle EMS Genève : GRESI et protection des données",
+      "description": "Contrôle d'un EMS genevois côté données : distinction entre surveillance GRESI et autorité de protection des données, étapes de préparation et checklist.",
+      "inLanguage": "fr-CH",
+      "isPartOf": {
+        "@id": "https://dpo-romandie.ch/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://dpo-romandie.ch/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Préparer son EMS genevois à un contrôle : surveillance GRESI et protection des données",
+          "item": "https://dpo-romandie.ch/inspection-gresi.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Le GRESI contrôle-t-il la protection des données de mon EMS ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non, pas spécifiquement. Le GRESI (Groupe risque pour l'état de santé et inspectorat), rattaché au service du médecin cantonal, surveille la gestion de l'établissement et la qualité des soins, lors de visites annuelles annoncées ou inopinées. Le contrôle de la protection des données relève d'une autre autorité : le Préposé cantonal (PPDT) pour les institutions soumises à la LIPAD, ou le Préposé fédéral (PFPDT) pour le secteur privé soumis à la nLPD. Les deux logiques sont complémentaires mais distinctes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle autorité de protection des données est compétente pour un EMS genevois ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cela dépend du statut juridique de l'EMS. Un EMS subventionné ou exerçant une tâche publique peut être soumis à la LIPAD, donc au PPDT cantonal. Un EMS strictement privé relève de la nLPD, donc du PFPDT fédéral. Il est important de faire déterminer le régime applicable à votre établissement avant tout contrôle, plutôt que de le supposer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le registre des traitements est-il obligatoire pour un EMS ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un EMS traite des données de santé, donc des données sensibles, et à grande échelle. Dans cette configuration, le registre des traitements est requis. C'est aussi l'un des premiers documents qu'une autorité demande lors d'un contrôle, et un élément central de la preuve de diligence de l'établissement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Un prestataire peut-il assumer ma responsabilité pénale en cas de contrôle ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Le responsable du traitement, soit l'EMS et sa direction, reste légalement responsable. La sanction pénale de la nLPD (jusqu'à 250'000 CHF) vise la personne physique responsable, sur plainte, et n'est pas assurable. Un conseiller à la protection des données accompagne, produit les documents de diligence, forme le personnel, assiste et représente l'établissement, mais ne se substitue pas à sa responsabilité légale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La nomination d'un conseiller à la protection des données est-elle obligatoire ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pas formellement pour toute institution. Mais au vu du risque pénal individuel, des données sensibles traitées par un EMS et de la nécessité de prouver sa diligence en cas de contrôle ou de plainte, c'est une mesure de protection fortement recommandée. Le cadrage se fait par le risque, pas par une obligation stricte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Faut-il héberger les données de santé en Suisse ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'hébergement des données de santé en Suisse est une exigence très forte, liée au secret médical (art. 321 du Code pénal) et fortement attendue lors d'un contrôle. Ce n'est pas un mur légal absolu en toutes circonstances, mais c'est un argument de conformité et de confiance déterminant pour un EMS. Nos données sont hébergées en Suisse."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true"><svg class="mono" viewBox="0 0 96 104" fill="none" aria-hidden="true" focusable="false"><text x="48" y="44" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">YR</text><line x1="14" y1="54" x2="82" y2="54" stroke="currentColor" stroke-width="1.6"/><rect x="42" y="48" width="12" height="12" rx="2" fill="#c8102e"/><rect x="44.8" y="53.2" width="6.4" height="2.4" rx=".8" fill="#fff"/><rect x="46.8" y="51.2" width="2.4" height="6.4" rx=".8" fill="#fff"/><text x="48" y="94" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">AS</text></svg></span><span><b>DPO Romandie</b><small>Conformité · Suisse romande</small></span></a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="secteurs.html">Secteurs</a>
+        <a href="inspection-gresi.html">Contrôle</a>
+        <a href="tarifs.html">Tarifs</a>
+        <a href="equipe.html">Équipe</a>
+        <a class="btn" href="audit-gratuit.html">Audit gratuit</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-head">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › Préparer son EMS genevois à un contrôle : surveillance GRESI et protection des données</nav>
+      <p class="eyebrow">Conformité protection des données · PME · Suisse romande</p>
+      <h1>Préparer son EMS genevois à un contrôle : surveillance GRESI et protection des données</h1>
+    </div>
+  </div>
+  <main id="main" class="container">
+<p class="lead"><strong>En bref :</strong> un EMS genevois est concerné par deux logiques de contrôle distinctes. La <strong>surveillance GRESI</strong> (Groupe risque pour l'état de santé et inspectorat, rattaché au service du médecin cantonal) vérifie la gestion de l'établissement et la qualité des soins, lors de visites annuelles annoncées ou inopinées. Un <strong>contrôle de protection des données</strong> relève, lui, d'une autorité différente : le Préposé cantonal à la protection des données et à la transparence (PPDT) pour les institutions soumises à la LIPAD, ou le Préposé fédéral à la protection des données et à la transparence (PFPDT) pour le secteur privé soumis à la nLPD. Se préparer côté données, c'est pouvoir présenter à l'une ou l'autre de ces instances un dossier de conformité tenu à jour : registre des traitements, mesures de sécurité, formation du personnel et traçabilité.</p>
+
+<section data-reveal>
+<h2>GRESI ou autorité de protection des données : qui contrôle quoi ?</h2>
+<p>La confusion est fréquente, et il est utile de la lever avant de se préparer. La surveillance sanitaire et le contrôle de la protection des données ne sont pas exercés par les mêmes instances, ne reposent pas sur les mêmes lois et ne portent pas sur les mêmes documents.</p>
+<div class="table-wrap"><table class="compare">
+<thead>
+<tr><th>Critère</th><th>Surveillance GRESI</th><th>Contrôle protection des données</th></tr>
+</thead>
+<tbody>
+<tr><td>Qui</td><td>GRESI (Groupe risque pour l'état de santé et inspectorat), rattaché au service du médecin cantonal genevois</td><td>PPDT (autorité cantonale, institutions LIPAD) ou PFPDT (autorité fédérale, secteur privé)</td></tr>
+<tr><td>Objet</td><td>Gestion de l'établissement, qualité et sécurité des soins, conformité au cadre sanitaire</td><td>Traitement des données personnelles et sensibles, sécurité de l'information, respect de la nLPD / LIPAD</td></tr>
+<tr><td>Base légale principale</td><td>Législation sanitaire cantonale (loi sur la santé)</td><td>nLPD (en vigueur depuis le 1er septembre 2023) et/ou LIPAD ; secret professionnel et médical (art. 321 du Code pénal)</td></tr>
+<tr><td>Déclencheur typique</td><td>Visite annuelle, annoncée ou inopinée, selon une grille d'inspection</td><td>Plainte, demande d'accès d'un résident, ou contrôle à la suite d'un incident (ex. fuite de données)</td></tr>
+<tr><td>Documents typiques</td><td>Dossiers de soins, organisation, dotation, protocoles cliniques</td><td>Registre des traitements, politique de sécurité, contrats de sous-traitance, registre des violations</td></tr>
+</tbody>
+</table></div>
+<div class="callout">À clarifier pour votre établissement : l'autorité compétente en protection des données dépend du statut juridique de l'EMS. Un EMS subventionné ou exerçant une tâche publique peut être soumis à la LIPAD (donc au PPDT) ; un EMS strictement privé relève de la nLPD (donc du PFPDT). En cas de doute, votre conseiller à la protection des données détermine le régime applicable avant tout contrôle. Nous ne formulons aucune affirmation définitive sans avoir examiné votre situation.</div>
+</section>
+
+<section data-reveal>
+<h2>Pourquoi un EMS est particulièrement exposé côté données</h2>
+<p>Un EMS traite des <strong>données de santé</strong>, c'est-à-dire des données sensibles, et il les traite à grande échelle : chaque résident, en continu. Ce profil de risque a deux conséquences directes.</p>
+<p class="stat">La nLPD prévoit une amende pénale pouvant aller jusqu'à 250'000 CHF, visant la personne physique responsable et non assurable (loi fédérale sur la protection des données, en vigueur depuis le 1er septembre 2023).</p>
+<p>Premièrement, le <strong>registre des traitements</strong> est requis pour un établissement qui traite des données sensibles à cette échelle. Deuxièmement, la sanction pénale peut viser une personne physique : le directeur ou le responsable désigné, sur plainte. C'est pourquoi la préparation ne se résume pas à cocher des cases : il s'agit de constituer une <strong>preuve de diligence</strong>, que vous pouvez faire valoir en cas de contrôle ou de plainte.</p>
+<blockquote class="expert">« Un contrôle réussi ne se joue pas le jour de la visite. Il se joue dans la capacité à montrer, document à l'appui, que l'établissement a pris au sérieux la protection des données de ses résidents bien avant qu'on le lui demande. » — [Nom de l'associé], [titre], DPO Romandie</blockquote>
+<div class="callout">Précision honnête : la nomination d'un conseiller à la protection des données n'est pas formellement obligatoire pour toute institution. Mais au vu du risque pénal individuel, des données sensibles traitées et de la nécessité de prouver sa diligence, c'est une mesure de protection fortement recommandée pour un EMS. Le responsable du traitement (l'EMS et sa direction) reste, lui, légalement responsable : nous l'accompagnons, produisons les documents et le représentons lors d'un contrôle, mais nous ne nous substituons pas à sa responsabilité.</div>
+</section>
+
+<section data-reveal>
+<h2>Les étapes pour préparer son EMS à un contrôle côté données</h2>
+<ol class="steps">
+<li><strong>Cartographier</strong> tous les traitements de données : résidents, personnel, prestataires, vidéosurveillance, dossiers de soins informatisés.</li>
+<li><strong>Constituer</strong> le registre des traitements et le tenir à jour, avec finalité, base légale, catégories de données et durées de conservation.</li>
+<li><strong>Sécuriser</strong> l'accès aux données : droits d'accès par fonction, journalisation, chiffrement, et hébergement des données de santé en Suisse.</li>
+<li><strong>Encadrer</strong> les sous-traitants (logiciel de soins, infogérance, prestataire RH) par des contrats de sous-traitance conformes à la nLPD.</li>
+<li><strong>Former</strong> le personnel au secret professionnel et médical (art. 321 du Code pénal) et aux réflexes de base sur la protection des données.</li>
+<li><strong>Préparer</strong> les procédures de réaction : gestion d'une demande d'accès d'un résident et annonce d'une violation de la sécurité des données.</li>
+<li><strong>Désigner</strong> un point de contact (conseiller à la protection des données) capable d'assister et de représenter l'établissement lors d'un contrôle.</li>
+</ol>
+</section>
+
+<section data-reveal>
+<h2>Checklist : ce qu'une autorité peut demander à un EMS</h2>
+<p>Lors d'un contrôle de protection des données, ou à la suite d'une plainte, l'autorité (PPDT ou PFPDT selon votre statut) peut demander tout ou partie des éléments suivants. Cette checklist sert de base d'auto-évaluation.</p>
+<ul>
+<li>Le <strong>registre des traitements</strong> à jour, couvrant résidents et personnel.</li>
+<li>La <strong>politique de protection des données</strong> et la politique de sécurité de l'information.</li>
+<li>Les <strong>informations données aux résidents</strong> (et à leurs proches) sur l'usage de leurs données.</li>
+<li>Les <strong>contrats de sous-traitance</strong> avec les fournisseurs traitant des données (logiciel métier, hébergeur, prestataires).</li>
+<li>La preuve de l'<strong>hébergement des données de santé</strong> et sa localisation (résidence des données en Suisse).</li>
+<li>La <strong>gestion des droits d'accès</strong> : qui accède à quoi, journalisation, mots de passe, comptes désactivés au départ d'un collaborateur.</li>
+<li>Le <strong>registre des violations de la sécurité des données</strong> et la procédure d'annonce associée.</li>
+<li>Les <strong>preuves de formation</strong> du personnel au secret professionnel et à la protection des données.</li>
+<li>La procédure de traitement d'une <strong>demande d'accès</strong> émanant d'un résident.</li>
+<li>Le cas échéant, l'<strong>analyse d'impact</strong> pour les traitements présentant un risque élevé (ex. vidéosurveillance étendue).</li>
+</ul>
+<div class="callout">À noter : la grille de visite du GRESI porte sur la gestion et les soins, pas spécifiquement sur la nLPD. Il ne faut donc pas confondre « être prêt pour le GRESI » et « être prêt pour un contrôle de protection des données ». Les deux préparations sont complémentaires mais distinctes.</div>
+</section>
+
+<section data-reveal>
+<h2>Le rôle d'un conseiller à la protection des données lors d'un contrôle</h2>
+<p>Un conseiller nommé n'efface pas la responsabilité de l'EMS, mais il change la posture de l'établissement face au contrôle. Concrètement, il produit et maintient les documents qui constituent la preuve de diligence, il forme le personnel, il assure la veille réglementaire, et il assiste puis représente la direction le jour de l'échange avec l'autorité. Pour un directeur d'EMS, cela transforme une situation d'incertitude en un dossier maîtrisé, présentable à tout moment.</p>
+<p>Notre approche associe un profil technique (terrain et sécurité de l'information) à un spécialiste de la protection des données nommé, qui signe et représente le client. Les données sont hébergées en Suisse, ce qui répond à l'exigence forte de résidence des données de santé liée au secret médical.</p>
+</section>
+    <section data-reveal aria-label="Questions fréquentes">
+      <h2>Questions fréquentes</h2>
+      <div class="faq">
+      <details><summary>Le GRESI contrôle-t-il la protection des données de mon EMS ?</summary><div>Non, pas spécifiquement. Le GRESI (Groupe risque pour l'état de santé et inspectorat), rattaché au service du médecin cantonal, surveille la gestion de l'établissement et la qualité des soins, lors de visites annuelles annoncées ou inopinées. Le contrôle de la protection des données relève d'une autre autorité : le Préposé cantonal (PPDT) pour les institutions soumises à la LIPAD, ou le Préposé fédéral (PFPDT) pour le secteur privé soumis à la nLPD. Les deux logiques sont complémentaires mais distinctes.</div></details>
+      <details><summary>Quelle autorité de protection des données est compétente pour un EMS genevois ?</summary><div>Cela dépend du statut juridique de l'EMS. Un EMS subventionné ou exerçant une tâche publique peut être soumis à la LIPAD, donc au PPDT cantonal. Un EMS strictement privé relève de la nLPD, donc du PFPDT fédéral. Il est important de faire déterminer le régime applicable à votre établissement avant tout contrôle, plutôt que de le supposer.</div></details>
+      <details><summary>Le registre des traitements est-il obligatoire pour un EMS ?</summary><div>Un EMS traite des données de santé, donc des données sensibles, et à grande échelle. Dans cette configuration, le registre des traitements est requis. C'est aussi l'un des premiers documents qu'une autorité demande lors d'un contrôle, et un élément central de la preuve de diligence de l'établissement.</div></details>
+      <details><summary>Un prestataire peut-il assumer ma responsabilité pénale en cas de contrôle ?</summary><div>Non. Le responsable du traitement, soit l'EMS et sa direction, reste légalement responsable. La sanction pénale de la nLPD (jusqu'à 250'000 CHF) vise la personne physique responsable, sur plainte, et n'est pas assurable. Un conseiller à la protection des données accompagne, produit les documents de diligence, forme le personnel, assiste et représente l'établissement, mais ne se substitue pas à sa responsabilité légale.</div></details>
+      <details><summary>La nomination d'un conseiller à la protection des données est-elle obligatoire ?</summary><div>Pas formellement pour toute institution. Mais au vu du risque pénal individuel, des données sensibles traitées par un EMS et de la nécessité de prouver sa diligence en cas de contrôle ou de plainte, c'est une mesure de protection fortement recommandée. Le cadrage se fait par le risque, pas par une obligation stricte.</div></details>
+      <details><summary>Faut-il héberger les données de santé en Suisse ?</summary><div>L'hébergement des données de santé en Suisse est une exigence très forte, liée au secret médical (art. 321 du Code pénal) et fortement attendue lors d'un contrôle. Ce n'est pas un mur légal absolu en toutes circonstances, mais c'est un argument de conformité et de confiance déterminant pour un EMS. Nos données sont hébergées en Suisse.</div></details>
+      </div>
+    </section>
+    <nav class="related" data-reveal aria-label="Sur le même sujet">
+      <h2>Sur le même sujet</h2>
+      <ul>
+        <li><a href="dpo-externe-ems-geneve.html">DPO externe pour EMS à Genève</a></li>
+        <li><a href="amende-nlpd-250000.html">L'amende nLPD de 250'000 CHF expliquée</a></li>
+        <li><a href="dpo-interne-ou-externe-cout.html">DPO interne ou externe : les coûts comparés</a></li>
+      </ul>
+    </nav>
+    <div class="cta-band" data-reveal>
+      <h2>Où en est votre EMS&nbsp;?</h2>
+      <p>20 minutes pour un état des lieux honnête de votre conformité — sans engagement.</p>
+      <a class="btn lg" href="audit-gratuit.html">Réserver l'audit gratuit</a>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="cols">
+        <div>
+          <a class="brand" href="index.html"><span class="mark" aria-hidden="true"><svg class="mono" viewBox="0 0 96 104" fill="none" aria-hidden="true" focusable="false"><text x="48" y="44" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">YR</text><line x1="14" y1="54" x2="82" y2="54" stroke="currentColor" stroke-width="1.6"/><rect x="42" y="48" width="12" height="12" rx="2" fill="#c8102e"/><rect x="44.8" y="53.2" width="6.4" height="2.4" rx=".8" fill="#fff"/><rect x="46.8" y="51.2" width="2.4" height="6.4" rx=".8" fill="#fff"/><text x="48" y="94" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="40" letter-spacing="1" text-anchor="middle" fill="currentColor">AS</text></svg></span><span><b>DPO Romandie</b></span></a>
+          <p>Conformité protection des données (nLPD) pour les PME de Suisse romande, tous secteurs. Données hébergées en Suisse.</p>
+          <div class="lang" aria-label="Langues"><a class="active" href="inspection-gresi.html" aria-current="true">FR</a><span title="Bientôt disponible">DE</span><span title="Bientôt disponible">IT</span></div>
+        </div>
+        <div>
+          <h3>Service</h3>
+          <a href="secteurs.html">Secteurs (santé)</a>
+          <a href="dpo-externe-ems-geneve.html">DPO externe pour EMS</a>
+          <a href="tarifs.html">Tarifs</a>
+          <a href="audit-gratuit.html">Audit gratuit</a>
+        </div>
+        <div>
+          <h3>Ressources</h3>
+          <a href="inspection-gresi.html">Préparer un contrôle</a>
+          <a href="amende-nlpd-250000.html">L'amende de 250'000 CHF</a>
+          <a href="dpo-interne-ou-externe-cout.html">Interne ou externe&nbsp;?</a>
+        </div>
+        <div>
+          <h3>Maison</h3>
+          <a href="equipe.html">L'équipe</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="legal">© 2026 DPO Romandie — [Raison sociale]. Données hébergées en Suisse. · <a href="politique-confidentialite.html">Politique de confidentialité</a> · <a href="mentions-legales.html">Mentions légales</a> · Information générale, ne constitue pas un conseil juridique individualisé.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

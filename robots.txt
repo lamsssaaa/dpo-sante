@@ -1,0 +1,5 @@
+# DPO Romandie — robots.txt (MODE PREVIEW — site non public)
+# Le site est en ligne pour partage privé mais NE doit PAS être indexé.
+# Version publique (allowlist bots IA pour AEO) sauvegardée dans robots-public.txt.
+User-agent: *
+Disallow: /

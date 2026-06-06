@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-label="Sceau DPO Romandie — monogramme YR AS">
+  <defs><path id="ring-sceau" d="M100,100 m-73,0 a73,73 0 1,1 146,0 a73,73 0 1,1 -146,0"/></defs>
+  <circle cx="100" cy="100" r="93" stroke="currentColor" stroke-width="1.4"/>
+  <circle cx="100" cy="100" r="80" stroke="currentColor" stroke-width="1"/>
+  <text font-family="Hanken Grotesk, sans-serif" font-weight="600" font-size="9.2" letter-spacing="1.5" fill="currentColor">
+    <textPath href="#ring-sceau" startOffset="0">· DPO ROMANDIE · PROTECTION DES DONNÉES · </textPath>
+  </text>
+  <text x="100" y="92" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="30" letter-spacing="2" text-anchor="middle" fill="currentColor">YR</text>
+  <line x1="74" y1="100" x2="126" y2="100" stroke="currentColor" stroke-width="1"/>
+  <rect x="95.5" y="95.5" width="9" height="9" rx="1.4" fill="#c8102e"/>
+  <rect x="97.6" y="99.1" width="4.8" height="1.8" rx=".6" fill="#fff"/>
+  <rect x="99.1" y="97.6" width="1.8" height="4.8" rx=".6" fill="#fff"/>
+  <text x="100" y="124" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="30" letter-spacing="2" text-anchor="middle" fill="currentColor">AS</text>
+</svg>
