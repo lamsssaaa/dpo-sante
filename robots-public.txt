@@ -1,0 +1,39 @@
+# DPO Romandie — robots.txt
+# Objectif : autoriser explicitement les robots des moteurs IA (AEO/GEO)
+# afin d'être cité par ChatGPT, Perplexity, Claude, Google AI Overviews, etc.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Tous les autres robots : accès complet
+User-agent: *
+Allow: /
+
+Sitemap: https://dpo-sante.ch/sitemap.xml
